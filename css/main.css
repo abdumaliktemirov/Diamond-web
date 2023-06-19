@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #FFFFFF;
+    margin-bottom: 200px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Herader seris start */
+#header {
+    padding: 10px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-wrap__log h2 {
+    font-family: 'Cormorant SC';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2D2B27;
+}
+
+.nav-item a {
+    font-family: 'Cormorant SC';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D2B27;
+}
+
+.dropdown-toggle::after {
+    width: 12px;
+    height: 6px;
+}
+
+
+
+
+/* Herader seris end */
+
+
+/* Diamond seris start */
+.diamond-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.diamond-left {
+    margin-top: 300px;
+}
+
+.diamond-left-premium {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 160%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2D2B27;
+    opacity: 0.5;
+}
+
+.diamond-left__name {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #2D2B27;
+}
+
+.dimaond-right__img img {
+    margin-right: -112px;
+    width: 700px;
+}

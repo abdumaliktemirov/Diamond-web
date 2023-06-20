@@ -7,8 +7,7 @@
 }
 
 body {
-    background: #FFFFFF;
-    margin-bottom: 200px;
+    background: #F7F7F7;
 }
 
 .container {
@@ -59,9 +58,6 @@ body {
     height: 6px;
 }
 
-
-
-
 /* Herader seris end */
 
 
@@ -98,3 +94,404 @@ body {
     margin-right: -112px;
     width: 700px;
 }
+
+.swiper-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+}
+
+.swiper-card {
+    text-align: center;
+}
+
+.swiper-card__title {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D2B27;
+}
+
+.swiper-card_name {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2D2B27;
+    opacity: 0.5;
+}
+
+.dimaond-swiper {
+    padding: 80px 70px 100px 70px;
+}
+
+.dimaond-swiper {
+    cursor: pointer;
+}
+
+.dimaond-swiper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+/* Diamond seris end */
+
+/* Mechty seris start */
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-img__title h1 {
+    position: absolute;
+    top: 66%;
+    left: 15%;
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 650px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    top: 85%;
+    left: 35%;
+}
+
+.swiper-drop {
+    position: relative;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.swiper-button-next2 img {
+    position: absolute;
+    z-index: 2;
+    top: 680px;
+    right: 6%;
+    color: #fff;
+}
+
+.swiper-button-prev2 {
+    position: absolute;
+    z-index: 2;
+    top: 678px;
+    right: 23%;
+    color: #fff;
+}
+
+/* Mechty seris end */
+
+/* Podbor seris start */
+.podbor-cards__title {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 50px;
+    color: #2D2B27;
+    padding: 80px 0 46px 0;
+}
+
+.podbor-hreft {
+    content: "";
+    width: 1200px;
+    height: 2px;
+    background: #D9D9D9;
+    margin-bottom: 40px;
+}
+
+.podbor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.podbor-mach {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #2D2B27;
+    opacity: 0;
+}
+
+/* Podbor seris end */
+
+.podbor-card {
+    position: relative;
+    height: 390px;
+    cursor: pointer;
+}
+
+.podbor_loves {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.podbor-love__white {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.podbor-love__red {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    opacity: 0;
+}
+
+.podbor-card:hover {
+    border: solid 1.5px #D9D9D9;
+}
+
+.podbor-card:hover .podbor-mach {
+    opacity: 1;
+}
+
+.podbor-card:hover .podbor-love__white {
+    display: none;
+}
+
+.podbor-card:hover .podbor-love__red {
+    opacity: 2;
+}
+
+.podbor-mt {
+    margin-top: 30px;
+}
+
+.podbor-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 80px 0;
+}
+
+.podbor-button button:hover {
+    transform: scale(1.1);
+}
+
+.podbor-button button {
+    transition: 0.3s;
+    width: 272px;
+    height: 56px;
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #2D2B27;
+    border: 1px solid #2D2B27;
+    border-radius: 400px;
+    background: #F7F7F7;
+}
+
+/* Atelier seris start */
+#atelier {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.atelier-wrap {
+    display: flex;
+}
+
+.atelier-wrap__img img {
+    position: absolute;
+    right: 0%;
+    border-radius: 30px;
+    height: 719px;
+}
+
+.atelier-info__title h1 {
+
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #2D2B27;
+}
+
+.atelier-wrap__info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px 0;
+}
+
+.atelier-info__text p {
+    width: 560px;
+    height: 152px;
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 160%;
+    color: #2D2B27;
+    opacity: 0.5;
+}
+
+.atelier-herft {
+    content: "";
+    height: 2px;
+    width: 600px;
+    background: #D9D9D9;
+}
+
+.atelier-text-bottom p {
+    width: 560px;
+    height: 120px;
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 160%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2D2B27;
+}
+
+/* Atelier seris end */
+
+/* Social seris start */
+#social {
+    padding: 80px 0;
+}
+
+.social-wrap__title {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 50px;
+    text-align: center;
+    color: #2D2B27;
+
+}
+
+.social-text p {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 160%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2D2B27;
+    width: 560px;
+    padding: 30px 0;
+}
+
+.social-card-img img {
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.4;
+}
+
+.social-card-img img:hover {
+    opacity: 1;
+}
+
+.social-hereft {
+    content: "";
+    height: 2px;
+    width: 600px;
+    background: #D9D9D9;
+}
+
+/* Social seris end */
+
+
+/* Footer seris start */
+.footer-wrap__number h1 {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 50px;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #2D2B27;
+
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-link {
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    color: #2D2B27;
+    text-decoration: none;
+}
+
+.footer-text_info {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2D2B27;
+    opacity: 0.5;
+}
+
+.footer-wrap_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer-wrap_text span {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #2D2B27;
+    opacity: 0.5;
+}
+
+.footer-bootom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bootom-diamon {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #2D2B27;
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+
+/* Footer seris end */
